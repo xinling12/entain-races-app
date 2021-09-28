@@ -11,8 +11,7 @@ export interface IRace {
 export interface ISeconds {
     seconds: number
 }
-export interface IRaces extends Array<IRace>{
-}
+export type IRaces = Array<IRace>
 
 export interface INextToGoIds {
     next_to_go_ids: string[]

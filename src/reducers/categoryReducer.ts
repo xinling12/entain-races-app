@@ -8,7 +8,7 @@ const initialState : CategoryState = {
     isGreyHoundCheck: true,
     isHarnessCheck: true,
     isHorseCheck: true,
-};
+}
 
 interface CheckGreyhound {
     type: 'UPDATE_GREYHOUND';

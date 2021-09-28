@@ -1,12 +1,9 @@
-import { IRaces, IRace } from "../types"
-
 export interface RaceState {
     races: string[];
 }
 const initialState = {
     races: [],
-};
-// const initialState = new Array();
+}
 
 type Action = {type:"UPDATE_RACES", payload: []}
 export const raceReducer = (state:RaceState = initialState, action:Action) => {
